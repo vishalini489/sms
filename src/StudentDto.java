@@ -147,32 +147,3 @@ public class StudentDto {
 
 
 
-
-//import java.sql.Connection;
-//import java.sql.DriverManager;
-//import java.sql.Statement;
-//
-//public class StudentDto {
-//    public static void main(String[] args) throws Exception {
-//
-//        String url = "jdbc:mysql://localhost:3306/college";
-//        String user = "root";
-//        String password = "vishalini@89";
-//
-//        Connection con = DriverManager.getConnection(url, user, password);
-//
-//        String sql = "CREATE TABLE IF NOT EXISTS sms (" +
-//                "rollNumber INT PRIMARY KEY, " +
-//                "name VARCHAR(50) NOT NULL, " +
-//                "age INT, " +
-//                "courseName VARCHAR(100))";
-//
-//        Statement stmt = con.createStatement();
-//        stmt.execute(sql);
-//
-//        System.out.println("Table created successfully");
-//
-//        stmt.close();
-//        con.close();
-//    }
-//}
